@@ -89,12 +89,29 @@ body.fotos #navegacao a#fotos
     background: #f5f5f5;
 }
 
+#lateral
+{
+    width: 180px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+
 #primario
 {
     width: 270px;
     float: left;
     margin: 0 0 20px 194px;
-    border: 1px solid blue;
+}
+
+#duas-colunas #primario
+{
+    width: 555px;
+}
+
+#uma-coluna #primario
+{
+    width: 750px;
+    margin: 0 0 20px 0px;
 }
 
 #secundario
@@ -102,18 +119,152 @@ body.fotos #navegacao a#fotos
     width: 270px;
     float: left;
     margin: 0 0 20px 11.5px;
-    border: 1px solid green;
 }
 
-#lateral
+.caixa
 {
-    width: 180px;
-    float: left;
-    margin: 0 0 20px -750px;
-    border: 1px solid yellow;
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url("../img/fundo-caixa.png");
+    
 }
 
+h2
+{
+    font-size: 1.0em;
+    background-color: #294c71;
+    color: #fff;
+    padding: 5px;
+}
 
+.caixa-conteudo
+{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#lateral ul a
+{
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+label
+{
+    display: block;
+    cursor: pointer;
+}
+
+input
+{
+    font-size: 0.8em;
+    padding: 5px;
+    width: 125px;
+    margin: 5px 0 5px 0;
+}
+
+input.submit
+{
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+input.submit:hover
+{
+    color: #fff;
+    cursor: pointer;
+    background: #de003e;
+}
+
+img.imagem-principal
+{
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+h3
+{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3
+{
+    background-color: #b10333;
+    color: #fff;
+}
+
+.entrevista h3
+{
+    background-color: #b10333;
+    color: #fff;
+}
+
+#lista-noticias li
+{
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 62px;
+}
+
+#lista-noticias li a img 
+{
+    width: 30%;
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias .ajuste
+{
+    width: 15%;
+}
+
+#lista-noticias .ajuste-novo
+{
+    width: 10%;
+}
+
+#lista-noticias li a
+{
+    text-decoration: none;
+    color: #363636;
+}
+
+#lista-noticias li a p
+{
+    font-size: 0.7em;
+}
+
+#lista-noticias li a h3
+{
+    padding: 0;
+    font-size: 0.8em;
+    color: #3e7ab9;
+}
+
+#lista-noticias li:hover
+{
+    background-color: #DCDCDC;
+}
 
 #container-rodape
 {
